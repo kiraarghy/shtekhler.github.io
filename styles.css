@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 3%;
+  background: hsl(122, 4%, 73%);
+  color: hsl(53, 93%, 95%);
+}
+
+.link {
+  color: rgba(254, 251, 230, 0.64);
+}
+
+main {
+  max-width: 50%;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+p {
+  margin-right: 50%;
+  margin-left: 1%;
+  colour: white;
+}
+
+footer {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid lightgrey;
+}
+
+.icongithub {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+
+  -webkit-mask: url(https://cdn.glitch.com/cc1ffc05-f50d-474a-883e-0d4b6d21d1c7%2Fgithub.svg)
+    no-repeat 50% 50%;
+  mask: url(https://cdn.glitch.com/cc1ffc05-f50d-474a-883e-0d4b6d21d1c7%2Fgithub.svg)
+    no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  padding: 5px;
+}
+
+.icontwitter {
+  width: 48px;
+  height: 38.8px;
+  display: inline-block;
+
+  -webkit-mask: url(https://cdn.glitch.com/cc1ffc05-f50d-474a-883e-0d4b6d21d1c7%2Ftwitter.svg?1504302111892)
+    no-repeat 50% 50%;
+  mask: url(https://cdn.glitch.com/cc1ffc05-f50d-474a-883e-0d4b6d21d1c7%2Ftwitter.svg?1504302111892)
+    no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.icon-offwhite {
+  background-color: hsl(53, 93%, 95%);
+}
