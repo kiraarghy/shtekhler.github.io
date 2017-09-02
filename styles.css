@@ -14,18 +14,13 @@ body {
   font-weight: bold;
 }
 
-main {
-
-}
-
 h1 {
   font-weight: bold;
 }
 
 p {
-  margin-right: 76%;
+  margin-right: 70%;
   margin-left: 1%;
-  colour: white;
 }
 
 footer {
@@ -41,10 +36,7 @@ footer {
 
   -webkit-mask: url(https://cdn.glitch.com/cc1ffc05-f50d-474a-883e-0d4b6d21d1c7%2Fgithub.svg)
     no-repeat 50% 50%;
-  mask: url(https://cdn.glitch.com/cc1ffc05-f50d-474a-883e-0d4b6d21d1c7%2Fgithub.svg)
-    no-repeat 50% 50%;
   -webkit-mask-size: cover;
-  mask-size: cover;
   padding: 5px;
 }
 
@@ -55,14 +47,47 @@ footer {
 
   -webkit-mask: url(https://cdn.glitch.com/cc1ffc05-f50d-474a-883e-0d4b6d21d1c7%2Ftwitter.svg?1504302111892)
     no-repeat 50% 50%;
-  mask: url(https://cdn.glitch.com/cc1ffc05-f50d-474a-883e-0d4b6d21d1c7%2Ftwitter.svg?1504302111892)
-    no-repeat 50% 50%;
   -webkit-mask-size: cover;
-  mask-size: cover;
   padding: 5px;
   margin-left: 5px;
 }
 
 .icon-offwhite {
   background-color: hsl(53, 93%, 95%);
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  p {
+    margin-right: 20%;
+    margin-left: 1%;
+  }
+
+  .icongithub {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+
+    -webkit-mask: url(https://cdn.glitch.com/cc1ffc05-f50d-474a-883e-0d4b6d21d1c7%2Fgithub.svg)
+      no-repeat 50% 50%;
+    mask: url(https://cdn.glitch.com/cc1ffc05-f50d-474a-883e-0d4b6d21d1c7%2Fgithub.svg)
+      no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    padding: 5px;
+  }
+
+  .icontwitter {
+    width: 80px;
+    height: 64px;
+    display: inline-block;
+
+    -webkit-mask: url(https://cdn.glitch.com/cc1ffc05-f50d-474a-883e-0d4b6d21d1c7%2Ftwitter.svg?1504302111892)
+      no-repeat 50% 50%;
+    mask: url(https://cdn.glitch.com/cc1ffc05-f50d-474a-883e-0d4b6d21d1c7%2Ftwitter.svg?1504302111892)
+      no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    padding: 5px;
+    margin-left: 5px;
+  }
 }
