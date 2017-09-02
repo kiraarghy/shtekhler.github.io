@@ -10,7 +10,8 @@ body {
 }
 
 .link {
-  color: rgba(254, 251, 230, 0.64);
+  color: hsl(53, 93%, 95%);
+  font-weight: bold;
 }
 
 main {
