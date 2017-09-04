@@ -5,11 +5,10 @@
 body {
   font-family: "Courier New", Courier, "Lucida Sans Typewriter",
     "Lucida Typewriter", monospace;
-  margin: 3%;
+
   background: hsl(122, 4%, 73%);
   color: hsl(53, 93%, 95%);
 }
-
 
 .link {
   color: hsl(53, 93%, 95%);
@@ -21,13 +20,12 @@ body {
 
 p {
   margin-right: 70%;
-  margin-left: 1%;
+  margin-left: 3%;
 }
 
 footer {
   margin-top: 20px;
   padding-top: 10px;
-  border-top: 1px solid lightgrey;
 }
 
 .icongithub {
