@@ -3,23 +3,20 @@
 }
 
 body {
-  font-family: helvetica, arial, sans-serif;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter",
+    "Lucida Typewriter", monospace;
   margin: 3%;
   background: hsl(122, 4%, 73%);
   color: hsl(53, 93%, 95%);
 }
 
+
 .link {
   color: hsl(53, 93%, 95%);
-  font-weight: bold;
 }
 
 .imagelink {
   text-decoration: none;
-}
-
-h1 {
-  font-weight: bold;
 }
 
 p {
@@ -57,7 +54,7 @@ footer {
   margin-left: 5px;
 }
 
-.iconshtekhler {  
+.iconshtekhler {
   /*1.38 ratio width/height*/
   width: 66px;
   height: 48px;
@@ -122,25 +119,25 @@ footer {
     padding: 5px;
     margin-left: 5px;
   }
-  .iconshtekhler {  
+  .iconshtekhler {
     /*1.38 ratio width/height*/
     width: 110px;
     height: 80px;
     display: inline-block;
-  
+
     -webkit-mask: url(https://cdn.glitch.com/cc1ffc05-f50d-474a-883e-0d4b6d21d1c7%2Fshtekhler.svg?1504352295474)
       no-repeat 50% 50%;
     -webkit-mask-size: cover;
     padding: 5px;
     margin-left: 5px;
   }
-  
+
   .icongmail {
     /*1.388 ratio width/height*/
     width: 111px;
     height: 80px;
     display: inline-block;
-  
+
     -webkit-mask: url(https://cdn.glitch.com/cc1ffc05-f50d-474a-883e-0d4b6d21d1c7%2Fgmail_512_black.png?1504363655728)
       no-repeat 50% 50%;
     -webkit-mask-size: cover;
