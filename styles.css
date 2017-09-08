@@ -6,8 +6,8 @@ body {
   font-family: "Courier New", Courier, "Lucida Sans Typewriter",
     "Lucida Typewriter", monospace;
 
-  background: hsl(122, 4%, 73%);
-  color: hsl(53, 93%, 95%);
+  background: hsl(98, 8%, 60%);
+  color: hsl(57, 100%, 99%);
 }
 
 footer {
@@ -19,7 +19,7 @@ footer {
 }
 
 .link {
-  color: hsl(53, 93%, 95%);
+  color: hsl(57, 100%, 99%);
 }
 
 p {
@@ -29,6 +29,12 @@ p {
 
 span {
   font-size: 20px;
+}
+
+.title {
+  margin: 1%;
+  margin-top: 3%;
+  font-size: 30px;
 }
 
 @media screen and (max-device-width: 600px) and (orientation: portrait) {
