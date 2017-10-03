@@ -6,20 +6,12 @@ body {
   font-family: "Courier New", Courier, "Lucida Sans Typewriter",
     "Lucida Typewriter", monospace;
 
-  background: hsl(98, 8%, 60%);
-  color: hsl(57, 100%, 99%);
-}
-
-footer {
-  padding-top: 4px;
-}
-
-.imagelink {
-  text-decoration: none;
+  background: white;
+  color: black;
 }
 
 .link {
-  color: hsl(57, 100%, 99%);
+  color: black;
 }
 
 p {
@@ -27,15 +19,16 @@ p {
   margin-left: 3%;
 }
 
-span {
-  font-size: 20px;
-}
-
 .title {
   margin: 1%;
   margin-top: 3%;
   font-size: 30px;
 }
+
+span {
+  font-size: 20px;
+}
+
 
 @media screen and (max-device-width: 600px) and (orientation: portrait) {
   p {
